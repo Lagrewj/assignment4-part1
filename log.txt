@@ -8,6 +8,9 @@ End: Wed, 29 Apr 2015 16:20:00 -0800
 Tasks: Worked on login.php
 
 Start: Thurs, 30 Apr 2015 13:00:00 -0800  
-End: Thurs, 30 Apr 2015 15:30:30 -0800 
+End: Thurs, 30 Apr 2015 15:00:00 -0800 
 Tasks: debugged and uploaded login.php
 
+Start: Thurs, 30 Apr 2015 15:00:00 -0800  
+End: Thurs, 30 Apr 2015 16:30:30 -0800 
+Tasks: started content1.php
