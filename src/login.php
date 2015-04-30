@@ -1,5 +1,14 @@
-?php
+<?php
+header('Contents-Type: text/plain');
+//session_start function will destroy session and redirect if necessary 
 session_start();
+  $_SESSION = array();
+  session_destroy();
+  $filePath = explode('/', $_SERVER['PHP_SELF'], -1);
+  $filePath = implode('/', $filePath);
+  $redirect = "http://" . $_SERVER['HTTP_HOST'] . $filePath;
+  header("Location: {$redirect}/login.php", true);
+  die();
 ?>
 
 <html>
