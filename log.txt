@@ -1,1 +1,13 @@
 
+Start: Tue, 28 Apr 2015 18:25:00 -0800  
+End: Tue, 28 Apr 2015 19:45:40 -0800 
+Tasks: Started Assignment after watching lectures and created repo
+
+Start: Wed, 29 Apr 2015 14:00:00 -0800  
+End: Wed, 29 Apr 2015 16:20:00 -0800 
+Tasks: Worked on login.php
+
+Start: Thurs, 7 Apr 2015 13:00:00 -0800  
+End: Thurs, 7 Apr 2015 15:30:30 -0800 
+Tasks: debugged and uploaded login.php
+
