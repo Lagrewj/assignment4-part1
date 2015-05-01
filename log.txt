@@ -14,3 +14,7 @@ Tasks: debugged and uploaded login.php
 Start: Thurs, 30 Apr 2015 15:00:00 -0800  
 End: Thurs, 30 Apr 2015 16:30:30 -0800 
 Tasks: started content1.php
+
+Start: Fri, 01 May 2015 14:00:00 -0800  
+End: Fri, 01 May 2015 15:30:00 -0800 
+Tasks: worked on content2.php
