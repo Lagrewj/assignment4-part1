@@ -25,3 +25,26 @@ elseif(!isset($_GET['max-multiplier'])){
 	echo "<h1>Missing max-multiplier.</h1><br>";
 	$valid_input = false;
 	}
+    else //checking to see if variables are integers. If not then setting valid input to false
+    {
+      $min_multicand = $_GET['min-multiplicand'];
+      $max_multicand = $_GET['max-multiplicand'];
+      $min_multiplier = $_GET['min-multiplier'];
+      $max_multiplier = $_GET['max-multiplier'];
+      
+      if(!is_numeric($min_multicand) || strpos($min_multicand, ".") !== false){
+          echo "<h1>$min_multicand must be an integer.</h1><br>";
+          $valid_input = false;
+      }
+      if(!is_numeric($max_multicand) || strpos($max_multicand, ".") !== false){
+          echo "<h1>$max_multicand must be an integer.</h1><br>";
+          $valid_input = false;
+      }
+      if(!is_numeric($min_multiplier) || strpos($min_multiplier, ".") !== false){
+          echo "<h1>$min_multiplier must be an integer.</h1><br>";
+          $valid_input = false;
+      }
+      if(!is_numeric($max_multiplier ) || strpos($max_multiplier, ".") !== false){
+          echo "<h1>$max_multiplier must be an integer.</h1><br>";
+          $valid_input = false;
+      }
