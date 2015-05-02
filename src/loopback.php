@@ -1,10 +1,3 @@
-<html>
-<head>
-<meta charset="utf-8">
-<title>Assignment 4 CS290</title>
-</head>
-<body>
-
 <?php
 class JSONClass{
 	public $type;
@@ -37,7 +30,3 @@ class JSONClass{
 //references
 //1. http://php.net/manual/en/function.json-encode.php
 ?>
-
-</table>
-</body>
-</html>
