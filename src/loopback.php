@@ -2,7 +2,7 @@
 error_reporting(E_All);
 ini_set('display_errors', 1);
 	$keyValueArray = array();
-	foreach($_GET as $key => $value){
+	foreach($_POST as $key => $value){
 		$keyValueArray[$key] = $value;
 	}
 	//if POST input
