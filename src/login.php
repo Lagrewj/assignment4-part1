@@ -17,7 +17,7 @@ session_start();
     <title>Welcome to CS290 Assignment 4</title>
   </head>
   <body>
-      <form> action="content1.php method="POST">
+      <form action="content1.php method="POST">
       <label for="username">Username</label>
       <input type="text" name="username" id="username" /><br/>
       <input type="submit" value="Login"/>
