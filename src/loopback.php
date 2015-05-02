@@ -1,9 +1,6 @@
 <?php
-class JSONClass{
-	public $type;
-	public $parameters = array();
-}
-	$json = new JSONClass(); //creating instance of JSONClass
+error_reporting(E_All);
+ini_set('display_errors', 1);
 	//if POST input
 	if($_SERVER['REQUEST_METHOD'] == 'POST') {
 		$json->type = "POST";
