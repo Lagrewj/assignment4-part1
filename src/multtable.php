@@ -57,3 +57,32 @@ elseif(!isset($_GET['max-multiplier'])){
         echo "<h1>$min_multiplier larger than $max_multicand.</h1><br>";
         $valid_input = false;
       }
+        createTable($min_multicand, $max_multicand, $min_multiplier, $max_multiplier); 
+      }
+    }
+    //create table
+    function createTable($min_multicand, $max_multicand, $min_multiplier, $max_multiplier){
+        echo '<table border="1">';
+        echo "<tr><td></td>";
+        $first_col = $min_multicand;
+        for($i = $min_multiplier; $i<=$max_multiplier; $i++)
+        {
+          echo "<td>$i</td>";
+        }
+
+        for($j = $min_multicand; $j<=$max_multicand; $j++)
+        {
+          echo "<tr>";
+          echo "<td>$first_col</td>";
+          for($k = $min_multiplier; $k<=$max_multiplier; $k++)
+          { 
+            $product = $j*$k;
+            echo "<td>$product</td>";   
+          }
+          $first_col = $first_col +1;
+        }
+        echo "</table>";
+    }    
+  ?> 
+</body>
+</html>
