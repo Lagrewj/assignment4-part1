@@ -6,11 +6,11 @@ if(session_status() == PHP_SESSION_ACTIVE){ //checking if session is active
                 $visits = $_SESSION['visits'];
                 $username = $_SESSION['username'];
                 echo "You are logged in as $username and you have visited $visits times. ";
-                $content1 = '<a href="content1.php">Click here to visit content1.php</a>';
+                $content1 = '<a href="content1.php">Click here to visit content1.php</a>'; //link to content 1
                 echo $content1;
         }
     }
-        else{ //redirect to login page to login
+        else{ //redirect to login page to login if timed out
             $filepath = explode('/', $_SERVER['PHP_SELF'], -1);
             $filepath = implode('/', $filepath);
             $redirect = "http://".$_SERVER['HTTP_HOST'].$filepath;
