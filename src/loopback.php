@@ -17,8 +17,9 @@ ini_set('display_errors', 1);
 	if($_SERVER['REQUEST_METHOD'] == 'GET') {
 		$arrayGet = array("Type" => "GET", "parameters" => $keyValueArray);
 		echo json_encode($arrayGet); //returns the JSON representation of a value 
+		//returns the JSON representation of a value
 	}
-	//returns the JSON representation of a value
+	
 	
 //references
 //1. http://php.net/manual/en/function.json-encode.php
