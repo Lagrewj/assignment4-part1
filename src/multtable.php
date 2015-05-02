@@ -48,3 +48,12 @@ elseif(!isset($_GET['max-multiplier'])){
           echo "<h1>$max_multiplier must be an integer.</h1><br>";
           $valid_input = false;
       }
+	  //data validation that min is less than max
+      if ($min_multicand > $max_multicand){
+        echo "<h1>$min_multicand larger than $max_multicand.</h1><br>";
+        $valid_input = false;
+      }
+      if ($min_multiplier > $max_multiplier){
+        echo "<h1>$min_multiplier larger than $max_multicand.</h1><br>";
+        $valid_input = false;
+      }
